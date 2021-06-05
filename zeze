@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Fun Facts About Andy</title>
+</head>
+<body>
+    <h1> Andrew Crofts </h1>
+
+
+    <h1> Education: </h1>
+    <h4> Tufts University, Class of 2022, Computer Science </h4>
+
+
+    <h1> Relevant Coursework: </h1>
+    <h4> Web Programming, Data Structures, Cybersecurity, Artificial Intelligence </h4>
+
+    <h1> Work Experience: </h1>
+    <h4> Formula 1 Driver: </h4>
+        <ul>
+            <li>competed against some of the best athelets in the world</li>
+            <li>met daily with the owner of the team and race bosses</li>
+            <li>answered questions from media daily</li>
+        </ul>
+
+<body>
+<html/>
