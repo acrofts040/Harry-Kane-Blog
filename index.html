@@ -18,17 +18,24 @@
 
 <p>
 <button id="Click" type="button" onclick="print();">ClickMe</button>
-<button type="button" onclick="">>> Remove</button>
+<button id="remove" type="button" onclick="">>> Remove</button>
 </p>
 
 <div id="Pokemon"></div>                                             
 
 <script type="text/javascript">
         document.getElementById("Click").addEventListener("click", print);
-
+	input = document.getElementById("numb");
 	function print() {
  		document.getElementById("pokemon").innerHTML = document.getElementById("numb");
-	}                      
+	}    
+											     
+	document.getElementById("remove").addEventListener("click", remove);
+
+	function remove() {
+ 		temp = document.getElementById("pokemon").innerHTML;				
+		array -= input;
+	}   										     
 </script>                            
                               
 </body>
