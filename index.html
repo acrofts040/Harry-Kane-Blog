@@ -17,14 +17,14 @@
 <p id="demo"></p>
 
 <p>
-<button type="button" onclick="print();">ClickMe</button>
+<button id="Click" type="button" onclick="print();">ClickMe</button>
 <button type="button" onclick="">>> Remove</button>
 </p>
 
 <div id="Pokemon"></div>                                             
 
 <script type="text/javascript">
-        document.getElementById("myBtn").addEventListener("click", print);
+        document.getElementById("Click").addEventListener("Click", print);
 
 	function print() {
  		document.getElementById("pokemon").innerHTML = document.getElementById("numb");
