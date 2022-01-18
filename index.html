@@ -27,12 +27,7 @@
 <div id="pokemon"></div>                                             
 
 <script type="text/javascript">	
-	document.getElementById("pokemon").innerHTML = "";
-        document.getElementById("add").addEventListener("click", add);
-	document.getElementById("Click").addEventListener("click", print);
-	document.getElementById("remove").addEventListener("click", remove);
-								 						 
-	input = document.getElementById("numb");
+			      
 	function print() {
  		document.getElementById("pokemon").innerHTML = document.getElementById("numb");
 	}    
@@ -46,7 +41,16 @@
 	function remove() {
  		temp = document.getElementById("pokemon").innerHTML;				
 		temp -= input;
-	}   	
+	}  		      
+			      
+			      
+	document.getElementById("pokemon").innerHTML = "";
+        document.getElementById("add").addEventListener("click", add);
+	document.getElementById("Click").addEventListener("click", print);
+	document.getElementById("remove").addEventListener("click", remove);
+								 						 
+	input = document.getElementById("numb");
+	 	
 							
 </script>                            
                               
