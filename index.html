@@ -12,7 +12,7 @@
 
 <form id="numb"></form>
 
-<button type="button" onclick="add();">Addme</button>
+<button id="add" type="button" onclick="add();">Addme</button>
 
 <p id="demo"></p>
 
@@ -24,18 +24,35 @@
 <div id="Pokemon"></div>                                             
 
 <script type="text/javascript">
-        document.getElementById("Click").addEventListener("click", print);
+			      
+			      
+			      
+			      
+			      
+        document.getElementById("add").addEventListener("click", print);
+	document.getElementById("Click").addEventListener("click", print);
+	document.getElementById("remove").addEventListener("click", remove);
+								 
+								 
 	input = document.getElementById("numb");
 	function print() {
  		document.getElementById("pokemon").innerHTML = document.getElementById("numb");
 	}    
+	
 											     
-	document.getElementById("remove").addEventListener("click", remove);
+	function add(){
+		temp = document.getElementById("pokemon").innerHTML;				
+		temp += input;
+	}
+											     
+											     
+											   
 
 	function remove() {
  		temp = document.getElementById("pokemon").innerHTML;				
-		array -= input;
-	}   										     
+		temp -= input;
+	}   	
+							
 </script>                            
                               
 </body>
